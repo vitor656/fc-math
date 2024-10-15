@@ -24,5 +24,5 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          push: true
+          push: false
           tags: vitor656/fc-math:latest
